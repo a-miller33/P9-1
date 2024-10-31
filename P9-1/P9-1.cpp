@@ -21,7 +21,12 @@ int main() {
 		cout << randomArray[i] << "  ";
 	}
 
-	
+	cout << endl << "Even values:         ";
+	for (int i = 0; i < SIZE; i++) {
+		if (randomArray[i] % 2 == 0) {
+			cout << randomArray[i] << "  ";
+		}
+	}
 
 
 
