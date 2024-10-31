@@ -28,7 +28,10 @@ int main() {
 		}
 	}
 
-
+	cout << endl << "Reversed order:      ";
+	for (int i = SIZE; i > 0; i--) {
+		cout << randomArray[i-1] << "  ";
+	}
 
 	return 0;
 }
