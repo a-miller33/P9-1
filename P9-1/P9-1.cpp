@@ -16,7 +16,10 @@ int main() {
 		cout << randomArray[i] << "  ";
 	}
 
-	
+	cout << endl << "Even indices:        ";
+	for (int i = 0; i < SIZE; i += 2) {
+		cout << randomArray[i] << "  ";
+	}
 
 	
 
