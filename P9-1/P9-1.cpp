@@ -33,6 +33,9 @@ int main() {
 		cout << randomArray[i-1] << "  ";
 	}
 
+	cout << endl << "First and last:      ";
+	cout << randomArray[0] << "  " << randomArray[SIZE-1];
+
 	return 0;
 }
 
